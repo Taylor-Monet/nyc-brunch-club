@@ -86,6 +86,126 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*---------------- Start Here ----------------*/
+
+/*---------------- Base Header - Footer Styles ----------------*/
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.header nav ul li {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*---------------- Hero-area (Main Section) ----------------*/
+
+.hero-area {
+  display: flex;
+ justify-content: center;
+}
+
+  
+
+/*---------------- Aside (Newsletter Sign-Up) ----------------*/
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/*---------------- Features ----------------*/
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+/*---------------- Features Content ----------------*/
+
+features .features-items {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap; 
+}
+
+/*---------------- Reviews ----------------*/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*---------------- Footer Styles ---------------*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+}
+/*---------------- Contact ----------------*/
+
+
+
+
+
+
+
+/*---------------- About Page ----------------*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center
+}
+
+/*---------------- FAQ Page -----------------*/
+
+.faq {
+  display: flex;
+  justify-content: center
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +380,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
